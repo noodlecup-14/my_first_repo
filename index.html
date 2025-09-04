@@ -1,3 +1,12 @@
+<!--EXPLANATION:
+   <!DOCTYPE html> tell the browser this page is written in html, allows browser to display the page correctly
+   <html lang="eng"> the language is in English. Helps screen readers and search engines. 
+   <head>...</head> for page information (not visible) to add later character encoding, page title (tab name), links to CSS files, SEO and mobile settings
+   <meta charset="UTF-8" /> tell the browser how to read text, UTF8 supports almost all languages, emojis, symbols.
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" /> makes the page responsive to mobile; width: scale to device, initial-scale=1.0: don't zoom in or out automatically.
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" /> is for older versions of Internet Explorer.
+   <title>...</title>: shows in the browser tab, search results and default name if bookmarked.
+   -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,24 +16,40 @@
     <title>My ICT Journey</title>
   </head>
   <body>
+    <!--use <a> tag for links
+            <hr> tag to add a horizontal line below the menu
+            <br> tag to break between sentences 
+            <nav> tag is usually at the top of <body>; <a> is usually placed inside. For internal navigation, you don't need target="_blank" (open in new tab)
+                 -->
+    <nav>
+  <a href="index.html">Home</a>
+  <a href="profile.html">Profile</a>
+  <a href="dashboard.html">Dashboard</a>
+  <a href="faq.html">FAQ</a>
+  <a href="blog.html">Blog</a>
+</nav>
+<hr>
     <h1>Welcome to my page! ≽(•⩊ •マ≼ </h1>
     <h2>Why I chose ICT?</h2>
 <p>I am a curious person, and to me, technology feels like magic as I am amazed at how people can build state-of-the-art devices that we are using every day from just 0 and 1. 
     <br>That is why I am motivated to dive deep into this field to unveil the logic and creativity of technology. 
     <br>I am excited to discover the many paths within ICT, from web development to data science or software engineering.
-<br>This study program fits me because I’m a self-driven learner. I am not afraid to start from zero, as long as I have a clear goal and the right learning resources. 
-<br><br>I truly believe that passion often grows as you improve at something, not before. 
+<br>This study program fits me because I’m a self-driven learner. I am not afraid to start from zero, as long as I have a clear goal and the right learning resources. </p>
+<p>I truly believe that passion often grows as you improve at something, not before. 
 <br>As Cal Newport says in <em>So Good They Can’t Ignore You</em>: <strong>“Working right trumps finding the right work.”</strong> 
 <br>That is exactly how I approach ICT: I don’t expect to love it overnight, but I am excited to build skills and discover what parts of this field inspire me as I grow.</p>
 <h2>My plan for the future?</h2>  
 <ol>
-    <li>Learn more about computer science basics</li>
+    <li>Learn more about computer science basics.</li>
     <li>Use free online resources like CS50 and boot.dev to support my learning.</li>
     <li>Connect with classmates and teachers to build a support network.</li>
     <li>Find a specialization during the four years that suits me best.</li>
     <li>Read more books to expand my thinking and inspiration.</li>
 </ol>
 <h2> This is me! •⩊• </h2>
+<!--<img../> is a void element
+    src = source
+    width="..." set the image width in pixels, use height to control height instead-->
 <img src="garden.jpg" alt="my garden" width="450"/>
 <br><p><em>Me and my little garden</em></p>
 <img src="neil.JPG" alt="me and neil" width="450"/>
@@ -32,6 +57,8 @@
 <h2> Resources I'm using to learn more about ICT:</h2>
 <p> In addition to my classes at Hz, I'm also learning independently through:</p>
 <ul>
+    <!-- used target="_blank" to open a new tab instead of leaving the current one-->
+    <!-- used rel="noopener noreferer" to prevent trace back-->
     <li><a href="https://www.boot.dev/" target="_blank" rel="noopener noreferrer">Boot.dev</a> — a hands-on platform to learn back-end development and computer science.</li>
     <li><a href="https://cs50.harvard.edu/x/" target="_blank" rel="noopener noreferrer">CS50x</a> — Harvard’s free and world-famous introduction to computer science course.</li>
 </ul>
