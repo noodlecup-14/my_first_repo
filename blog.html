@@ -1,53 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Blog</title>
-  </head>
-  <body>
-    <nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Blog</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
   <a href="index.html">Home</a>
   <a href="profile.html">Profile</a>
   <a href="dashboard.html">Dashboard</a>
   <a href="faq.html">FAQ</a>
-  <a href="blog.html">Blog</a>
-</nav>
-<hr>
+  <a href="blog.html" aria-current="page">Blog</a>
+  </nav>
+
+  <div class="container">
+  <!-- PAGE HEADER -->
   <header>
     <h1> Welcome to my ICT Blog ♬⋆.˚</h1>
     <p>Read through my blog to know more about me as a person as well as my career orientation! </p>
-   </header> 
-<hr>
-<main>
-<h2> Why I Chose ICT?</h2>
-<p>
-My interest in ICT began through my husband, who is a software engineer and studied in the Netherlands.
-Through our shared passion...
-</p>
-<a href="blog_posts/post1.html">Read more...</a>
-<hr>
-<h2>My SWOT Analysis</h2>
-<p>My strength is that I love working in a team, and I always try my best to complete my work. 
-    I’m highly self-motivated and enjoy researching...</p>
-<a href="blog_posts/post2.html">Read more...</a>
-<hr>
-<h2>My Programming Experience</h2>
-<p>
-    I am new to ICT and just started my journey into the computer world recently. 
-    Since I am a long-time...
-</p>
-<a href="blog_posts/post3.html">Read more...</a>
-<hr>
-<h2>SKC Assignment Feedback</h2>
-<p></p>
-<a href="blog_posts/post4.html">Read more...</a>
-<hr>
-<h2>An IT company I like</h2>
-<p>One company in the ICT and gaming world that inspires me is Valve Corporation, the creator of the Steam platform. 
-Valve is unique because...</p>
-<a href="blog_posts/post5.html">Read more...</a>
-</main>
-  </body>
+  </header> 
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <section class="blog-feed">
+
+      <!-- POST 1-->
+      <article class="blog-preview">
+        <h2>Why I Chose ICT?</h2>
+          <p>My interest in ICT began through my husband, who is a software engineer and studied in the Netherlands.
+          Through our shared passion...</p>
+          <a href="blog_posts/post1.html">Read more...</a>
+      </article>
+
+      <!-- POST 2 -->
+      <article class="blog-preview">
+        <h2>My SWOT Analysis</h2>
+          <p>My strength is that I love working in a team, and I always try my best to complete my work. 
+          I’m highly self-motivated and enjoy researching...</p>
+          <a href="blog_posts/post2.html">Read more...</a>
+      </article>
+
+      <!-- POST 3 -->
+      <article class="blog-preview">
+        <h2>My Programming Experience</h2>
+          <p>
+          I am new to ICT and just started my journey into the computer world recently. 
+          Since I am a long-time...
+          </p>
+          <a href="blog_posts/post3.html">Read more...</a>
+      </article>
+
+      <!-- POST 4 -->
+      <article class="blog-preview">
+        <h2>SKC Assignment Feedback</h2>
+          <p></p>
+          <a href="blog_posts/post4.html">Read more...</a>
+      </article>
+
+      <!-- POST 5 -->
+      <article class="blog-preview">
+        <h2>Valve and Gaben</h2>
+          <p>One company in the ICT and gaming world that inspires me is Valve Corporation, the creator of the Steam platform. 
+          Valve is unique because...</p>
+          <a href="blog_posts/post5.html">Read more...</a>
+      </article>
+
+    </section>
+  </main>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer container">
+    <p>&copy; 2025 Loan - My ICT Journey</p>
+  </footer>
+</body>
 </html>
