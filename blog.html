@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Blog</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
   <!-- NAVIGATION -->
-  <nav>
+  <nav class="site-nav">
   <a href="index.html">Home</a>
   <a href="profile.html">Profile</a>
   <a href="dashboard.html">Dashboard</a>
@@ -20,9 +21,9 @@
 
   <div class="container">
   <!-- PAGE HEADER -->
-  <header>
+  <header class="page-header">
     <h1> Welcome to my ICT Blog ♬⋆.˚</h1>
-    <p>Read through my blog to know more about me as a person as well as my career orientation! </p>
+    <p><em>Read through my blog to know more about me as a person as well as my career orientation!</em></p>
   </header> 
 
   <!-- MAIN CONTENT -->
@@ -34,17 +35,17 @@
         <h2>Why I Chose ICT?</h2>
           <p>My interest in ICT began through my husband, who is a software engineer and studied in the Netherlands.
           Through our shared passion...</p>
-          <a href="blog_posts/post1.html">Read more...</a>
+          <a class="read-more" href="blog_posts/post1.html">Read more...</a>
       </article>
-
+      <hr>
       <!-- POST 2 -->
       <article class="blog-preview">
         <h2>My SWOT Analysis</h2>
           <p>My strength is that I love working in a team, and I always try my best to complete my work. 
           I’m highly self-motivated and enjoy researching...</p>
-          <a href="blog_posts/post2.html">Read more...</a>
+          <a class="read-more" href="blog_posts/post2.html">Read more...</a>
       </article>
-
+      <hr>
       <!-- POST 3 -->
       <article class="blog-preview">
         <h2>My Programming Experience</h2>
@@ -52,22 +53,22 @@
           I am new to ICT and just started my journey into the computer world recently. 
           Since I am a long-time...
           </p>
-          <a href="blog_posts/post3.html">Read more...</a>
+          <a class="read-more" href="blog_posts/post3.html">Read more...</a>
       </article>
-
+      <hr>
       <!-- POST 4 -->
       <article class="blog-preview">
         <h2>SKC Assignment Feedback</h2>
           <p></p>
-          <a href="blog_posts/post4.html">Read more...</a>
+          <a class="read-more" href="blog_posts/post4.html">Read more...</a>
       </article>
-
+      <hr>
       <!-- POST 5 -->
       <article class="blog-preview">
         <h2>Valve and Gaben</h2>
           <p>One company in the ICT and gaming world that inspires me is Valve Corporation, the creator of the Steam platform. 
           Valve is unique because...</p>
-          <a href="blog_posts/post5.html">Read more...</a>
+          <a class="read-more" href="blog_posts/post5.html">Read more...</a>
       </article>
 
     </section>
@@ -77,6 +78,9 @@
   <!-- FOOTER -->
   <footer class="site-footer container">
     <p>&copy; 2025 Loan - My ICT Journey</p>
+    <a href="https://hz.nl/en/" target="_blank" rel="noopener noreferrer">
+    <img class ="hz-logo" src="resources/hz_logo.png" alt="HZ Logo">
+    </a>
   </footer>
 </body>
 </html>
