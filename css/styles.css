@@ -6,7 +6,7 @@
 }
 /* EXPLAIN: *: apply rules to every element on the page.
                margin, padding reset to start with a clean slate, add your own margin padding later.
-               border box: ensure width is consistently.
+               border box: ensure width is consistently. */
 
 
 /* BODY */
@@ -14,38 +14,35 @@ body {
   /*background-image add later*/
   background: url("../resources/p3.jpeg");
   background-size: contain;
-  background-color: #ffffff;
-  font-family: 'Inter', system-ui, sans-serif;
-  font-weight: 400;
+  background-color: #ffffff;  /* In case bg photo doesn't load */
+  font-family: 'Inter', sans-serif;  /* In case Inter font doens't load */
+  font-weight: 400;  /* 400: normal 700: bold */
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.8;  /* Spacing between lines, meaning 16px x 1.8 */
   color: #222;
 }
 
 .page-header {
-    color:#12114d;
+    color:#171644;
     text-align: center;
 }
 
 /* CONTAINER LAYOUT */
 .container {
-  max-width: 720px;
-  margin: 32px auto;
-  padding: 24px;
-  background: hsla(0, 0%, 100%, 0.90);
-  border-radius: 10px; 
+  max-width: 720px; /* Content box size */
+  margin: 32px auto;  /* Center horizontally, space top + bottom */
+  padding: 24px;  /* Space inside box */
+  background: hsla(0, 0%, 100%, 0.90);  /* Make it transparent */
+  border-radius: 10px;  /* Round corner */
 }
-main, .page-header, .site-footer {
-  margin-top: 32px;
-}
-section, article {
-  margin: 32px 0;
+main, .page-header, .site-footer, section, article {
+  margin-top: 32px;  /* Space above section */
 }
 .photos h2, .showreel h2 {
   text-align: center;
 }
 .plan ol, .faq ol, .faq ul {
-  padding-left: 20px;
+  padding-left: 20px; 
   margin-left: 0;
 }
 #quote {
@@ -57,12 +54,11 @@ section, article {
 
 /* NAVIGATION */
 .site-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 12px 16px;
+  display: flex;  /* Lay links in a row */
+  justify-content: center;  /* Center links */
+  gap: 20px;  /* Space between links */
+  padding: 12px 16px;  /* Inner spacing */
   background: #292857;
-  border-bottom: 1px solid #e5e5e5;
 }
 .site-nav a {
   text-decoration: none;
