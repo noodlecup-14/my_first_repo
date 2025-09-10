@@ -29,7 +29,7 @@ body {
 
 /* CONTAINER LAYOUT */
 .container {
-  max-width: 900px; /* Content box size */
+  max-width: 1000px; /* Content box size */
   margin: 32px auto;  /* Center horizontally, space top + bottom */
   padding: 30px;  /* Space inside box */
   background: hsla(0, 0%, 100%, 0.90);  /* Make it transparent */
@@ -41,6 +41,10 @@ main, .page-header, .site-footer, section, article {
 .photos h2, .showreel h2 {
   text-align: center;
 }
+.intro h2 {
+  text-align: center;
+}
+
 ol, ul {
   padding-left: 20px; 
   margin-left: 0;
@@ -87,6 +91,15 @@ a:hover {
 }
 
 /* MEDIA */
+.index-gif, .faq-gif, .db-gif {
+  display: block;
+  margin: 24px auto 24px;
+}
+.profile-photos {
+  display:block;
+  margin: 24px auto 24px;
+  max-width: 60%;
+}
 figure {
   margin: 16px 0;
   text-align: center;
@@ -94,11 +107,12 @@ figure {
 img, video {
   max-width: 100%;
   height: auto;
+  border-radius: 6px;
 }
 figcaption {
   font-size: 14px;
   color: #666;
-  margin-top: 6px;
+  margin: 0 auto 24px;
 }
 
 /* DASHBOARD */
