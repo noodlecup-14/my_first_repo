@@ -11,8 +11,8 @@
 /* BODY */
 body {
   /*background-image add later*/
-  background: url("../resources/p3.jpeg");
-  background-size: contain;
+  background: url("../resources/p3.jpeg") no-repeat center fixed;
+  background-size: cover;
   background-color: #ffffff;  /* In case bg photo doesn't load */
   font-family: 'Inter', sans-serif;  /* In case Inter font doens't load */
   font-weight: 400;  /* 400: normal 700: bold */
@@ -152,7 +152,7 @@ tr.retake  td {
 .blog-feed {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 24px; /* space between post*/
 }
 
 .blog-feed h2 {
@@ -175,11 +175,32 @@ tr.retake  td {
 /* FOOTER */
 .site-footer {
   border-top: 1px solid #939393;
-  text-align: center;
-  color: #666;
+  color: #2c2c2c;
   font-size: 14px;
   padding: 16px 0 32px;
 }
+
+.footer-content {
+  display: flex;                 /* Put credit + socials in one row */
+  justify-content: space-around; /* Push them to opposite sides */
+  align-items: center;           /* Align vertically */
+  flex-wrap: wrap;             /* Allow wrapping on smaller screens */
+}
+
+.credit {
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.socials-text {
+  flex-direction: column;
+}
+
 .hz-logo {
 max-width: 250px;
 }
