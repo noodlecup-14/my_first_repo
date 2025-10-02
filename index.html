@@ -9,50 +9,57 @@
    -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My ICT Journey</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <!-- Link to my stylesheet -->
-  <link rel="stylesheet" href="css/styles.css">
-  <!--rel tell the browser this is a CSS file
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My ICT Journey</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to my stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!--rel tell the browser this is a CSS file
     Put in <head> so styles load before the page renders.-->
-</head>
+  </head>
 
-<body>
-  <!--use <a> tag for links
+  <body>
+    <!--use <a> tag for links
         <hr> tag to add a horizontal line below the menu
         <br> tag to break between sentences 
         <nav> tag is usually at the top of <body>; <a> is usually placed inside. For internal navigation, you don't need target="_blank" (open in new tab)-->
 
-  <!-- NAVIGATION -->
-  <nav class="site-nav">
-    <img src="resources/resize_cup.png" alt="personalLogo" width="50">
-    <a href="index.html" aria-current="page">Home</a> <!-- Tells screen readers which nav item is the current page.-->
-    <a href="profile.html">Profile</a>
-    <a href="dashboard.html">Dashboard</a>
-    <a href="faq.html">FAQ</a>
-    <a href="blog.html">Blog</a>
-  </nav>
+    <!-- NAVIGATION -->
+    <nav class="site-nav">
+      <img src="resources/resize_cup.png" alt="personalLogo" width="50" />
+      <a href="index.html" aria-current="page">Home</a>
+      <!-- Tells screen readers which nav item is the current page.-->
+      <a href="profile.html">Profile</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="faq.html">FAQ</a>
+      <a href="blog.html">Blog</a>
+    </nav>
 
-  <!-- Single layout wrapper so header + main align to the same column.-->
-  <div class="container">
-    <!-- PAGE HEADER -->
-    <header class="page-header">
-      <h1>Welcome to my page! ≽(•⩊ •マ≼ </h1>
-      <img src="resources/noodlecup14.png" alt="Noodlecup14" width="350">
-      <p><em>I'm Loan aka Noodlecup14! Nice to meet you :3</em></p>
-    </header>
+    <!-- Single layout wrapper so header + main align to the same column.-->
+    <div class="container">
+      <!-- PAGE HEADER -->
+      <header class="page-header">
+        <h1>Welcome to my page! ≽(•⩊ •マ≼</h1>
+        <img src="resources/noodlecup14.png" alt="Noodlecup14" width="350" />
+        <p><em>I'm Loan aka Noodlecup14! Nice to meet you :3</em></p>
+      </header>
 
-    <!-- MAIN CONTENT -->
-    <main>
-      <section class="intro">
-        <h2>Why I chose ICT?</h2>
-        <img src="resources/Digimon.gif" alt="Index photo 1" class="index-gif">
-        <p>I am a curious person, and to me, technology feels like magic as I am amazed at how people can build
+      <!-- MAIN CONTENT -->
+      <main>
+        <section class="intro">
+          <h2>Why I chose ICT?</h2>
+          <img
+            src="resources/Digimon.gif"
+            alt="Index photo 1"
+            class="index-gif"
+          />
+          <p>I am a curious person, and to me, technology feels like magic as I am amazed at how people can build
           state-of-the-art devices that we are using every day from just 0 and 1.
           <br>That is why I am motivated to dive deep into this field to unveil the logic and creativity of technology.
           I am excited to discover the many paths within ICT, from web development to data science or software
@@ -67,76 +74,116 @@
             In other words, what you do for a living is much less important than how you do it.”</em> </div>
         That is exactly how I approach ICT: I don’t expect to love it overnight, but I am excited to build skills and
         discover what parts of this field inspire me as I grow.</p>
+        </section>
 
-      </section>
+        <section class="plan">
+          <h2>My plan for the future?</h2>
+          <ol>
+            <li>Learn more about computer science basics.</li>
+            <li>
+              Use free online resources like CS50 and boot.dev to support my
+              learning.
+            </li>
+            <li>
+              Connect with classmates and teachers to build a support network.
+            </li>
+            <li>
+              Find a specialization during the four years that suits me best.
+            </li>
+            <li>Read more books to expand my thinking and inspiration.</li>
+            <li>Improve my Dutch.</li>
+          </ol>
+        </section>
 
-      <section class="plan">
-        <h2>My plan for the future?</h2>
-        <ol>
-          <li>Learn more about computer science basics.</li>
-          <li>Use free online resources like CS50 and boot.dev to support my learning.</li>
-          <li>Connect with classmates and teachers to build a support network.</li>
-          <li>Find a specialization during the four years that suits me best.</li>
-          <li>Read more books to expand my thinking and inspiration.</li>
-          <li>Improve my Dutch.</li>
-        </ol>
-      </section>
-
-      <section class="photos">
-        <h2> This is me! •⩊• </h2>
-        <figure>
-          <img src="resources/garden.jpg" alt="my garden" width="450" />
-          <figcaption><em>Me and my little garden</em></figcaption>
-        </figure>
-        <figure>
-          <img src="resources/neil.JPG" alt="me and neil" width="450" />
-          <figcaption><em>Me and Neil Newbon - Astarion from Baldur's Gate 3!</em></figcaption>
-        </figure>
-        <!--<img../> is a void element
+        <section class="photos">
+          <h2>This is me! •⩊•</h2>
+          <figure>
+            <img src="resources/garden.jpg" alt="my garden" width="450" />
+            <figcaption><em>Me and my little garden</em></figcaption>
+          </figure>
+          <figure>
+            <img src="resources/neil.JPG" alt="me and neil" width="450" />
+            <figcaption>
+              <em>Me and Neil Newbon - Astarion from Baldur's Gate 3!</em>
+            </figcaption>
+          </figure>
+          <!--<img../> is a void element
 src = source
 width="..." set the image width in pixels, use height to control height instead
 <figure> groups an image with its caption <figcaption>-->
-      </section>
+        </section>
 
-      <section class="resources">
-        <h2> Resources I'm using to learn more about ICT:</h2>
-        <p> In addition to my classes at Hz, I'm also learning independently through:</p>
-        <ul>
-          <li><a href="https://www.boot.dev/" target="_blank" rel="noopener noreferrer">Boot.dev</a> — a hands-on
-            platform to learn back-end development and computer science.</li>
-          <li><a href="https://cs50.harvard.edu/x/" target="_blank" rel="noopener noreferrer">CS50x</a> — Harvard’s free
-            and world-famous introduction to computer science course.</li>
-        </ul>
-        <!-- used target="_blank" to open a new tab instead of leaving the current one-->
-        <!-- used rel="noopener noreferer" to prevent trace back-->
-      </section>
-    </main>
-  </div>
+        <section class="resources">
+          <h2>Resources I'm using to learn more about ICT:</h2>
+          <p>
+            In addition to my classes at Hz, I'm also learning independently
+            through:
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://www.boot.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Boot.dev</a
+              >
+              — a hands-on platform to learn back-end development and computer
+              science.
+            </li>
+            <li>
+              <a
+                href="https://cs50.harvard.edu/x/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >CS50x</a
+              >
+              — Harvard’s free and world-famous introduction to computer science
+              course.
+            </li>
+          </ul>
+          <!-- used target="_blank" to open a new tab instead of leaving the current one-->
+          <!-- used rel="noopener noreferer" to prevent trace back-->
+        </section>
+      </main>
+    </div>
 
-  <!-- FOOTER -->
-  <footer class="site-footer container">
-    <div class="footer-content">
+    <!-- FOOTER -->
+    <footer class="site-footer container">
+      <div class="footer-content">
+        <!-- Social links -->
+        <div class="socials">
+          <img src="resources/resize_cup.png" alt="personalLogo" width="100" />
+          <div class="socials-text">
+            <p>Contact: loannguyen1496@gmail.com</p>
+            <a
+              href="https://instagram.com/noodlecup14"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            <a
+              href="https://github.com/noodlecup-14"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://steamcommunity.com/id/noodlecup14/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Steam</a
+            >
+          </div>
+        </div>
 
-      <!-- Social links -->
-      <div class="socials">
-        <img src="resources/resize_cup.png" alt="personalLogo" width="100">
-        <div class="socials-text">
-          <p>Contact: loannguyen1496@gmail.com</p>
-          <a href="https://instagram.com/noodlecup14" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://github.com/noodlecup-14" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://steamcommunity.com/id/noodlecup14/" target="_blank" rel="noopener noreferrer">Steam</a>
+        <!-- Credit -->
+        <div class="credit">
+          <p>&copy; 2025 Loan - My ICT Journey</p>
+          <a href="https://hz.nl/en/" target="_blank" rel="noopener noreferrer">
+            <img class="hz-logo" src="resources/hz_logo.png" alt="HZ Logo" />
+          </a>
         </div>
       </div>
-
-      <!-- Credit -->
-      <div class="credit">
-        <p>&copy; 2025 Loan - My ICT Journey</p>
-        <a href="https://hz.nl/en/" target="_blank" rel="noopener noreferrer">
-          <img class="hz-logo" src="resources/hz_logo.png" alt="HZ Logo"> </a>
-      </div>
-    </div>
-    </a>
-  </footer>
-
-</body>
+    </footer>
+  </body>
 </html>
