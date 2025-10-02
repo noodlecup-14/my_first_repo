@@ -1,168 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dashboard</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <!-- NAVIGATION -->
-  <nav class="site-nav">
-    <img src="resources/resize_cup.png" alt="personalLogo" width="50">
-    <a href="index.html">Home</a>
-    <a href="profile.html">Profile</a>
-    <a href="dashboard.html" aria-current="page">Dashboard</a>
-    <a href="faq.html">FAQ</a>
-    <a href="blog.html">Blog</a>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="site-nav">
+      <img src="resources/resize_cup.png" alt="personalLogo" width="50" />
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="dashboard.html" aria-current="page">Dashboard</a>
+      <a href="faq.html">FAQ</a>
+      <a href="blog.html">Blog</a>
+    </nav>
 
-  <div class="container">
-  <!-- PAGE HEADER -->
-  <header class="page-header">
-    <h1>Dash Board</h1>
-    <p><em>Below is the overview of my study in Year 1 at HZ</em></p>
-    <img src="resources/DSpixel.gif" alt="Dashboard photo" class="db-gif" width="720">
-  </header>
+    <div class="container">
+      <!-- PAGE HEADER -->
+      <header class="page-header">
+        <h1>Dash Board</h1>
+        <p><em>Below is the overview of my study in Year 1 at HZ</em></p>
+        <img
+          src="resources/DSpixel.gif"
+          alt="Dashboard photo"
+          class="db-gif"
+          width="720"
+        />
+      </header>
 
-  <!-- MAIN CONTENT -->
-  <main>
-    <section>
-  <h2>EC Progress</h2>
-  <p>Obtained EC: <strong>0</strong> / 60 &nbsp;•&nbsp; NBSA boundary: <strong>45 EC</strong></p>
-</section>
+      <!-- MAIN CONTENT -->
+      <main>
+        <section>
+          <h2>EC Progress</h2>
+          <p>
+            Obtained EC: <strong>0</strong> / 60 &nbsp;•&nbsp; NBSA boundary:
+            <strong>45 EC</strong>
+          </p>
+        </section>
 
-<section>
-  <h2 class="year-1">Year 1</h2>
+        <section>
+          <h2 class="year-1">Year 1</h2>
 
-  <table class="study-table">
-    <thead> <!-- Table Head -->
-      <tr> <!-- Defind a row -->
-        <th>Block</th>
-        <th>Course</th>
-        <th>Test</th>
-        <th>EC</th>
-        <th>Grade</th>
-        <th>Status</th>
-      </tr>
-    </thead>
-    <tbody> <!-- Table Body -->
-      <!-- Semester 1 -->
-      <tr class="table-content">
-        <td>1</td> <!-- Table data cell -->
-        <td>Programme & Career Orientation (CU75001V3)</td>
-        <td>Presentation</td>
-        <td>2.5</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-      <tr class="table-content">
-        <td>1</td>
-        <td>Programming Basics (CU75003V1)</td>
-        <td>Case study exam</td>
-        <td>5</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-      <tr class="table-content">
-        <td>1</td>
-        <td>Computer Science Basics (CU75002V2)</td>
-        <td>Written test</td>
-        <td>5</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-      <tr class="table-content">
-        <td>2</td>
-        <td>Object-Oriented Programming (CU75004V1)</td>
-        <td>Presentation + written test</td>
-        <td>10</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-      <tr class="table-content">
-        <td>2</td>
-        <td>Project Week</td>
-        <td> - </td>
-        <td>1.25</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-      <!-- Semester 2 (S2) -->
-      <tr class="table-content">
-        <td>3</td>
-        <td>Framework Project 1 (CU75080V3)</td>
-        <td>Exam / Presentation / Portfolio</td>
-        <td>10</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-      <tr class="table-content">
-        <td>4</td>
-        <td>Framework Project 2 (CU75011V4)</td>
-        <td>Final delivery + individual</td>
-        <td>10</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-      <tr class="table-content">
-        <td>3 - 4</td>
-        <td>Business Understanding Basics (CU75081V1)</td>
-        <td>Video assignment</td>
-        <td>2.5</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-      <tr class="table-content">
-        <td>1 - 4</td>
-        <td>PPD Exploration (CU75068V3)</td>
-        <td>Interview</td>
-        <td>12.5</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
+          <table class="study-table">
+            <thead>
+              <!-- Table Head -->
+              <tr>
+                <!-- Defind a row -->
+                <th>Block</th>
+                <th>Course</th>
+                <th>Test</th>
+                <th>EC</th>
+                <th>Grade</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Table Body -->
+              <!-- Semester 1 -->
+              <tr class="table-content">
+                <td>1</td>
+                <!-- Table data cell -->
+                <td>Programme & Career Orientation (CU75001V3)</td>
+                <td>Presentation</td>
+                <td>2.5</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+              <tr class="table-content">
+                <td>1</td>
+                <td>Programming Basics (CU75003V1)</td>
+                <td>Case study exam</td>
+                <td>5</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+              <tr class="table-content">
+                <td>1</td>
+                <td>Computer Science Basics (CU75002V2)</td>
+                <td>Written test</td>
+                <td>5</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+              <tr class="table-content">
+                <td>2</td>
+                <td>Object-Oriented Programming (CU75004V1)</td>
+                <td>Presentation + written test</td>
+                <td>10</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+              <tr class="table-content">
+                <td>2</td>
+                <td>Project Week</td>
+                <td>-</td>
+                <td>1.25</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+              <!-- Semester 2 (S2) -->
+              <tr class="table-content">
+                <td>3</td>
+                <td>Framework Project 1 (CU75080V3)</td>
+                <td>Exam / Presentation / Portfolio</td>
+                <td>10</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+              <tr class="table-content">
+                <td>4</td>
+                <td>Framework Project 2 (CU75011V4)</td>
+                <td>Final delivery + individual</td>
+                <td>10</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+              <tr class="table-content">
+                <td>3 - 4</td>
+                <td>Business Understanding Basics (CU75081V1)</td>
+                <td>Video assignment</td>
+                <td>2.5</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+              <tr class="table-content">
+                <td>1 - 4</td>
+                <td>PPD Exploration (CU75068V3)</td>
+                <td>Interview</td>
+                <td>12.5</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
 
-      <!-- IT Personality -->
-      <tr class="table-content">
-        <td>1 - 4</td>
-        <td>IT Personality</td>
-        <td>Portfolio</td>
-        <td>2.5</td>
-        <td>-</td>
-        <td>Not yet</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+              <!-- IT Personality -->
+              <tr class="table-content">
+                <td>1 - 4</td>
+                <td>IT Personality</td>
+                <td>Portfolio</td>
+                <td>2.5</td>
+                <td>-</td>
+                <td>Not yet</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
 
-  </main>
-  </div>
+        <!-- ASIDE -->
+        <aside class="useful-links">
+          <h2>Useful Links</h2>
+          <ul>
+            <li>
+              <a
+                href="https://hz.nl/en/organisation/regulations-documents"
+                target="_blank"
+                rel="noopener noreferrer"
+                >HZ HBO-ICT Course and Examination Regulations (CER)</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Implementation Regulations (IR)</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://learn.hz.nl/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >HZ Learn Environment</a
+              >
+            </li>
+            <li>
+              <a href="" target="_blank" rel="noopener noreferrer"
+                >MyHZ Study Progress</a
+              >
+            </li>
+            <!-- Add missing link later -->
+            <li>
+              <a
+                href="https://github.com/HZ-HBO-ICT"
+                target="_blank"
+                rel="noopener noreferrer"
+                >HZ GitHub</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </main>
+    </div>
 
-  <!-- FOOTER -->
-  <footer class="site-footer container">
-    <div class="footer-content">
+    <!-- FOOTER -->
+    <footer class="site-footer container">
+      <div class="footer-content">
+        <!-- Social links -->
+        <div class="socials">
+          <img src="resources/resize_cup.png" alt="personalLogo" width="100" />
+          <div class="socials-text">
+            <p>Contact: loannguyen1496@gmail.com</p>
+            <a
+              href="https://instagram.com/noodlecup14"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+            <a
+              href="https://github.com/noodlecup-14"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a
+              href="https://steamcommunity.com/id/noodlecup14/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Steam</a
+            >
+          </div>
+        </div>
 
-      <!-- Social links -->
-      <div class="socials">
-        <img src="resources/resize_cup.png" alt="personalLogo" width="100">
-        <div class="socials-text">
-          <p>Contact: loannguyen1496@gmail.com</p>
-          <a href="https://instagram.com/noodlecup14" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://github.com/noodlecup-14" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://steamcommunity.com/id/noodlecup14/" target="_blank" rel="noopener noreferrer">Steam</a>
+        <!-- Credit -->
+        <div class="credit">
+          <p>&copy; 2025 Loan - My ICT Journey</p>
+          <a href="https://hz.nl/en/" target="_blank" rel="noopener noreferrer">
+            <img class="hz-logo" src="resources/hz_logo.png" alt="HZ Logo" />
+          </a>
         </div>
       </div>
-
-      <!-- Credit -->
-      <div class="credit">
-        <p>&copy; 2025 Loan - My ICT Journey</p>
-        <a href="https://hz.nl/en/" target="_blank" rel="noopener noreferrer">
-          <img class="hz-logo" src="resources/hz_logo.png" alt="HZ Logo"> </a>
-      </div>
-    </div>
-    </a>
-  </footer>
-</body>
-</html> 
+    </footer>
+  </body>
+</html>
