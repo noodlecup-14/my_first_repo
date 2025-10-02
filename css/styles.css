@@ -197,8 +197,9 @@ tr.retake  td {
   text-align: left;
 }
 
-.socials-text {
-  flex-direction: column;
+.socials-text{
+  text-align: center;
+  margin-left: 16px;
 }
 
 .hz-logo {
